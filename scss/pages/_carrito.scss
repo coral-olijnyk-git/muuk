@@ -29,11 +29,40 @@ h4 {
 
 .img-carrito-contenedor {
     display: grid;
-    grid-template-columns: minmax(auto, 100px);
+    grid-template-columns: 1fr, 3fr, 1fr;
     justify-items: center;
     line-height: 10px;
-}
 
+    @media (min-width:320px) {
+        .img {
+            background-size: cover;
+            width: 166px;
+            height: 250px;
+            padding: 10px;
+            border-radius: 20px;
+
+            @media (min-width:576px) {
+                .img {
+                    background-size: cover;
+                    width: 250px;
+                    height: 375px;
+                    padding: 10px;
+                    border-radius: 20px;
+
+                    @media (min-width:768px) {
+                        .img {
+                            background-size: cover;
+                            width: 333px;
+                            height: 500px;
+                            padding: 10px;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 .catalogo {
     text-align: center;
     line-height: 30px;
