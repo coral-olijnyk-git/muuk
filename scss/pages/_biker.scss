@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 41, 148);
+    line-height: 30px;
+}
+
+h2 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+h4 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.art-img {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    line-height: 10px;
+
+    @media (min-width:320px) {
+        .img {
+            background-size: cover;
+            width: 166px;
+            height: 250px;
+            padding: 10px;
+
+            @media (min-width:576px) {
+                .img {
+                    background-size: cover;
+                    width: 250px;
+                    height: 375px;
+                    padding: 10px;
+                    
+
+                    @media (min-width:768px) {
+                        .img {
+                            background-size: cover;
+                            width: 333px;
+                            height: 500px;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.catalogo {
+    text-align: center;
+    line-height: 30px;
+}
+
+.lista-redes-footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    align-content: space-between;
+    line-height: 30px;
+
+    .seg-lista-footer {
+        grid-column: 2/3;
+        border: 90px;
+    }
+}
+
+li:first-child {
+    font-size: 16px;
+    line-height: 40px;
+
+}
