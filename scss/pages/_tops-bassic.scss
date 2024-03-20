@@ -18,44 +18,39 @@ h3 {
 
 h2 {
     text-align: center;
-    line-height: 20px;
+    line-height: 10px;
     font-size: 17px;
 }
 
 h4 {
     text-align: center;
-    line-height: 30px;
+    line-height: 10px;
+    font-size: 17px;
 }
 
 .art-img {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: center;
-    line-height: 10px;
+     line-height: 10px;
 
     @media (min-width:320px) {
         .img {
             background-size: cover;
-            width: 166px;
-            height: 250px;
-            padding: 10px;
-            border-radius: 20px;
+            width: 200px;
+            height: 300px;
 
             @media (min-width:576px) {
                 .img {
                     background-size: cover;
-                    width: 250px;
-                    height: 375px;
-                    padding: 10px;
-                    border-radius: 20px;
-
+                    width: 333px;
+                    height: 500px;
+                   
                     @media (min-width:768px) {
                         .img {
                             background-size: cover;
-                            width: 333px;
-                            height: 500px;
-                            padding: 10px;
-                            border-radius: 20px;
+                            width: 500px;
+                            height: 750px;                          
                         }
                     }
                 }

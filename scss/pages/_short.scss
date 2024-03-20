@@ -38,24 +38,19 @@ h4 {
             background-size: cover;
             width: 166px;
             height: 250px;
-            padding: 10px;
-            border-radius: 20px;
-
+          
             @media (min-width:576px) {
                 .img {
                     background-size: cover;
                     width: 250px;
-                    height: 375px;
-                    padding: 10px;
-                    border-radius: 20px;
+                    height: 375px;             
 
                     @media (min-width:768px) {
                         .img {
                             background-size: cover;
                             width: 333px;
                             height: 500px;
-                            padding: 10px;
-                            border-radius: 20px;
+                        
                         }
                     }
                 }
